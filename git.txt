@@ -1,0 +1,29 @@
+git branch new_branch_name
+git branch
+git checkout new_branch_name
+git branch
+git checkout branch in one line
+git checkout -b <newbranchname>
+git log  --online ===> to display the contents
+git diff <branch1> <branch2>
+
+
+first move to traget merge 
+git merge merging _branchname
+to delete the branch
+first move to another branch
+git branch -d branch_name
+git branch -D branch_name--force full
+
+to add and commit in one file in single step(only  possible for existing files)
+git commit -am "content"
+if it is new file that is not present in staging direcotry and localrepositry so we cant directly commit 
+if file is already in local repositry  it allow to direct commit the files.
+
+we can change the git commit message only latest message can change
+git commit --amend -m "new mesage";
+
+how to get the deleted file with rm
+git checkout file_name
+
+ 
