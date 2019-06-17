@@ -1,0 +1,29 @@
+version:0.2
+	phases:
+	 
+	  install:
+	  
+	    commands:
+
+		-printenv
+
+		-echo "i am in install mode"
+		- apt-get install -y maven
+
+	  build:
+
+	    commands:
+
+		-npm run build
+
+
+	 post_build:
+
+	   commands:
+
+		-echo "i am in post_build stage"
+
+
+	 
+
+	  	
